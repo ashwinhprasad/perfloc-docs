@@ -1,9 +1,9 @@
-To use perfloc, 2 shared object libraries need to be built. These libraries are dynamically linked.
+To use Perfloc, 2 shared object libraries need to be built. These libraries are dynamically linked.
 
 1) Collections
 2) MemoryChunk
 
-Steps to create the .so file and use them as a library in an external executable or another library is given below.
+Steps to create the .so file and use it as a library in an external executable or another library are given below.
 
 
 ## Build Collections

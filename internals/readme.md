@@ -1,0 +1,3 @@
+## Perfloc Internals
+
+Perfloc creates a Top Memory Chunk *(similar to Java's virtual memory)* but objects cannot be directly allocated into this area. Each function, scope or process creates its own **Process Memory Chunk** that is created from the top memory chunk. Objects can be allocated into this process memory chunk. The lifetime of a process memory chunk does not exceed the function scope within which it is initialized. This ensures that the system calls are minimized.

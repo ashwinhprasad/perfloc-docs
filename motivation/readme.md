@@ -29,3 +29,5 @@ As soon as we do memory pooling like this in the programming layer, the need to 
 *Note: There are also cases where we have to forcefully use unsafe code blocks in Rust just to overcome the borrow checker's constraints and achieve the functionality we want when we know that the code does what it's intended to do and the borrow checker can relax. This defeats the whole purpose of the model the language is built upon**
 
 With an efficient memory allocator library like this, C overcomes all its default hurdles while also keeping the language's simplicity, fine-grained memory control and performance.
+
+[Back to Home](../readme.md)

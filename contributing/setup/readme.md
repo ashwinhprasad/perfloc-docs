@@ -30,3 +30,5 @@ mkdir tests/build
 cd tests/build && cmake -DCMAKE_BUILD_TYPE=Debug ..
 make
 ```
+
+[Back to Home](./readme.md)

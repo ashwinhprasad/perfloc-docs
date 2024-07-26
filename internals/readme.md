@@ -38,4 +38,6 @@ Process memory chunks are part of the top-level memory chunk. While top-level me
 
 The architecture of the process memory chunk is not so different from the top memory chunk in this aspect
 
+We store the object as well as a header for each object which contains a pointer back to the corresponding child meta of the object from the process memory chunk. This will be used during object deletion.
+
 [Back to Home](../readme.md)

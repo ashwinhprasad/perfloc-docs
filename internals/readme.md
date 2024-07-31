@@ -2,15 +2,11 @@
 
 Perfloc creates a Top Memory Chunk *(similar to Java's virtual memory)* but objects cannot be directly allocated into this area. Each function, scope or process creates its own **Process Memory Chunk** that is created from the top memory chunk. Objects can be allocated into this process memory chunk. The lifetime of a process memory chunk does not exceed the function scope within which it is initialized. This ensures that the system calls are minimized.
 
+## Contents
 
-### Collections Implementation
-
-A custom basic collection library is implemented for Perfloc to use. This library just contains a basic vector implementation. 
-
-![Vector Impl](./collections/static/images/vector.png)
-
-Perfloc implements vectors that store elements by reference. So, have to be more considerate while freeing the memory.
-
+1. [Top Memory Chunk](#top-memory-chunk)
+2. [Process Memory Chunk](#process-memory-chunk)
+3. [Chunk Resizing](./memorychunk/resizing/readme.md)
 
 ### Top Memory Chunk
 

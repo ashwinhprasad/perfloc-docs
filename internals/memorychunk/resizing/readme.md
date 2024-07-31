@@ -30,3 +30,5 @@ But the problem here is that the process memory chunk object resides in the stac
 To overcome this problem, the header of the old process memory chunk will contain a pointer that will point to this new process memory chunk. The lifecycle of the new process memory chunk is handled to be the same as the lifecycle of the old one.
 
 ![Process Memory Chunk Resizing](./static/images/process-memorychunk-resizing.png)
+
+[Back to Home](../../../readme.md)
